@@ -1,5 +1,5 @@
 # Electronic-Car
-Readmy (EN)
+Readme (EN)
 
 Electronic Car is a project realized by a group of students from Sainte Marie high school in Caen, France. 
 
@@ -15,7 +15,7 @@ The source code of this site is also on this repository in the "presentation" fo
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Readmy (FR)
+Readme (FR)
 
 Electronic Car est un projet réalisé par un groupe d'étudiants du lycée Sainte Marie à Caen en France. 
 
