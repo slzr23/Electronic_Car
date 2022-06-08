@@ -192,6 +192,9 @@ h3, span{
 }
 
 @media screen and (max-width:1250px){
+    .title {
+        margin-top: 15px;
+    }
     .toogle {
         margin-right: 15px;
     }
@@ -215,6 +218,7 @@ h3, span{
         position: relative;
         width: 100%;
         height: 180px;
+        margin-top 30px;
     }
     .slider .slides {
         position: absolute;
@@ -227,6 +231,7 @@ h3, span{
     }
     .car {
         max-width: 85%;
+        margin-top: 30px;
     }
 
     .esp32 {
