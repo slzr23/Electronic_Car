@@ -1,4 +1,4 @@
-# Electronic-Car
+# Electronic Car
 Readme (EN)
 
 Electronic Car is a project realized by a group of students from Sainte Marie high school in Caen, France. 
