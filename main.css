@@ -199,7 +199,7 @@ h3, span{
 
     h3 {
         font-size: 15px;
-        margin-left: -15px;
+        margin-left: -18px;
     }
     nav.nav {
         min-height: 15vh;
@@ -236,8 +236,9 @@ h3, span{
     }
 
     .phone {
-        width: 100%;
+        width: 50%;
         margin-top: 40px;
+        
     }
     .footer {
         position: relative;
@@ -261,6 +262,7 @@ h3, span{
         align-items: center;
         cursor: pointer;
         z-index: 1000;
+        margin-right: 15px;
     }
 
     .contenu {
