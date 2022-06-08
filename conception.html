@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Conception d'Electronic Car</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" sizes="64x64" href="source/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<nav class="nav">
+    <div class="logo">
+        <img src="Post Instagram 1080x1080  px (2).jpeg" class ="logovictor"alt="logo de lentreprise" width="100px">
+        <h3>Electronic Car</h3>
+    </div>
+    <div class="toggle"></div>
+        <ul class="navigation">
+            <li><a href="index.html">Car</a></li>
+            <li><a href="conception.html">Conception</a></li>
+            <li><a href="contact/contact.html">Contact</a></li>
+        </ul>
+</nav>
+
+    <h2 class="title">
+        Automated Remote Control Car Conception
+    </h2>
+
+    <div class="card">
+        <img src="source/esp32.png" alt="" class="esp32" width="20%">
+        <p>Moteur principal d'Electronic Car,<br> la carte programmable <b>ESP32</b>  est le coeur de notre projet <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+        </html></p>
+    </div>
+    <div class="control">
+        <p>Grâce à <b>l'interface de contrôle autonome</b> disponible sur votre smartphone, <br> prenez simplement en main votre véhicule !</p>
+        <img src="source/phone-control.png" alt="" class="phone" width="20%">
+    </div>
+    <div class="card">
+        <img src="source/batterie.png" alt="" class="esp32" width="15%">
+        <p>Alimentée grâce à une pile <b>DURACELL 9V</b> notre voiture <br> possède une autonomie de plus de 3 heures !</p>
+    </div>
+    <div class="control">
+        <p>Grâce au logiciel de modélisation 3D <b>SketchUp</b> <br> nous avons pu modéliser la coque de notre véhicule</p>
+        <img src="source/sketchup.png" alt="" class="phone" width="20%">
+    </div>
+</html>
+
+         <!-- footer avec réseaux -->
+         <div class="footer">
+            <ul class="reseaux">
+                <li><a href="https://twitter.com/electronic_c4r?s=21&t=22uRLO4O-WDbSs_7ZmK_Ig"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="https://instagram.com/electronic_c4r?igshid=YmMyMTA2M2Y="><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Partie Javascript  -->
+    <!-- On utlise un framework pour les icones des réseaux -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- script JS pour le slider des caractéristiques  -->
+    <script>
+        const slides = document.querySelectorAll('.slides');
+        const dots = document.querySelectorAll('.dot');
+
+        function setActive(i){
+            for (slide of slides)
+            slide.classList.remove('active');
+            slides[i].classList.add('active');
+            for (dot of dots)
+            dot.classList.remove('active');
+            dots[i].classList.add('active');
+        }
+
+        for(let j =0; j<dots.length; j++){
+            dots[j].addEventListener('click', function(){
+                setActive(j)
+            })
+        }
+    </script>
+
+    <!-- Script JS pour la navbar -->
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        const contenu = document.querySelector('.contenu');
+        const footer = document.querySelector('.footer')
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+            contenu.classList.toggle('active');
+            footer.classList.toggle('active') 
+        }
+    </script>
