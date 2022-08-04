@@ -8,7 +8,7 @@ Based on the programming of a esp32 card, Electronic Car is a complete automated
 In terms of hardware, our ESP32 is connected by wire to two motors (Joy-it com-Motor01) that have wheels and can easily move the car forward and backward. 
 The board is powered by a conventional external battery which is connected by a micro usb cable to the board. The motors receive the signal from the board and are powered by a box with a 9V battery. The two motors with wheels are located at the back of the car, and for easier steering we chose to attach a swivel wheel that can go in all directions to the front of the car. Finally, we made a body with a 3D printer to cover the whole. (You can see the result on the file: "voiture.png") 
 
-If you want more information about the car, and also see what it can do, you can go on our website : (https://slzr23.github.io/Electronic_Car/).
+If you want more information about the car, and also see what it can do, you can go on our website : (https://slzr23.github.io/Electronic_Car/), you can also see a result in the file "results.mp4".
 The source code of this site is also on this repository in the "presentation" folder. 
 
 (contact me: slzr.tech@gmail.com)
@@ -25,7 +25,7 @@ Basé sur la programmation d'une carte esp32, Electronic Car est une voiture aut
 En termes de matériel, notre ESP32 est relié par fil à deux moteurs (Joy-it com-Motor01) qui ont des roues et peuvent facilement faire avancer et reculer la voiture. 
 La carte est alimentée par une batterie externe classique qui est reliée par un câble micro usb à la carte. Les moteurs reçoivent le signal par la carte et sont alimentés par un boitier avec une pile 9V. Les deux moteurs avec roues sont situés à l'arrière de la voiture, et pour une direction plus facile, nous avons choisi de fixer une roue pivotante qui peut aller dans toutes les directions à l'avant de la voiture. Enfin, nous avons réalisé une carrosserie avec une imprimante 3D pour recouvrir l'ensemble. (Vous pouvez voir le résultat sur le fichier : "voiture.png") 
 
-Si vous voulez plus d'informations sur la voiture, et aussi voir ce qu'elle peut faire, vous pouvez aller sur notre site web : (https://slzr23.github.io/Electronic_Car/).
+Si vous voulez plus d'informations sur la voiture, et aussi voir ce qu'elle peut faire, vous pouvez aller sur notre site web : (https://slzr23.github.io/Electronic_Car/), vous pouvez aussi trouver une vidéo de la voiture en marche avec le fichier "results.mp4"
 Le code source de ce site se trouve également sur ce dépôt dans le dossier "presentation". 
 
 (me contacter: slzr.tech@gmail.com)
