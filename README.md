@@ -1,7 +1,11 @@
 # Electronic Car
-Readme (EN)
+(Read this document in [French](README_fr.md))
 
 Electronic Car is a project realized by a group of students from Sainte Marie high school in Caen, France. 
+
+<p align="center">
+  <img src="https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/fond.PNG" alt="Sublime's custom image"/>
+</p>
 
 Based on the programming of a esp32 card, Electronic Car is a complete automated car that can be controlled by phone with a simple web browser. The project was entirely realized in Python3.
 
