@@ -28,8 +28,6 @@ Finally, we made a body with a 3D printer to cover the whole. (You can see the r
   <img src="https://github.com/slzr23/Electronic_Car/blob/main/img_readme/Capture2.PNG" alt="Sublime's custom image"/>
 </p>
 
-## Software
-
 If you want more information about the car, and also see what it can do, you can go on our website : (https://slzr23.github.io/Electronic_Car/), you can also see a result in the file "results.mp4".
 The source code of this site is also on this repository in the "presentation" folder. 
 
