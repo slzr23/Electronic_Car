@@ -19,7 +19,7 @@ In terms of hardware, our ESP32 is connected by wire to two motors (Joy-it com-M
 The board is powered by a conventional external battery which is connected by a micro usb cable to the board. The motors receive the signal from the board and are powered by a box with a 9V battery. The two motors with wheels are located at the back of the car, and for easier steering we chose to attach a swivel wheel that can go in all directions to the front of the car. 
 
 <p align="center">
-  <img src="https://github.com/slzr23/Electronic_Car/blob/main/img_readme/Com-Motor1-03g.png" alt="Sublime's custom image"/>
+  <img src="https://github.com/slzr23/Electronic_Car/blob/main/img_readme/ori-kit-eco-roue-motoreducteur-mt01-30608.jpg" alt="Sublime's custom image"/>
 </p>
 
 Finally, we made a body with a 3D printer to cover the whole. (You can see the result on the file: "voiture.png" and the 3D SketchUp file "Modèle coque electronic car.skp") 
